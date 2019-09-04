@@ -1189,6 +1189,9 @@ td, th {
   color: #fff;
 }
 
+.single-product:hover img {
+  filter: brightness(0) invert(1); }
+
 .controls .filter {
   margin: 0 20px 10px 20px;
   display: inline-block;

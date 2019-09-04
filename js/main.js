@@ -191,3 +191,10 @@ $(document).ready(function(){
   $('.progressBar--animateAll').bekeyProgressbar();
   
 })
+
+// configuration for the slider
+$(document).ready(function(){
+  $('.slider').bxSlider();
+  $('a.bx-next').addClass('fa');
+  $('a.bx-prev').addClass('fa');
+});

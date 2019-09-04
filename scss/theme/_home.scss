@@ -23,12 +23,11 @@
 //------- Start Product Area --------//
 
 .welcome-title{
-  font-family: 'Montserrat';
   font-weight: 600;
 }
 .welcome-text{
-  font-family: 'Montserrat';
-  color: black;
+  
+  color: $black;
 }
 
 
@@ -44,8 +43,7 @@
 }
 .single-product {
 
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
-	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+	
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
 
 	
@@ -58,7 +56,7 @@
 		margin-bottom: 20px;
 		span {
 			font-size: 48px;
-			color: #00AEA5;
+			color: $primary-color;
 			@include transition();
 		}
 	}
@@ -80,7 +78,7 @@
 		img {
 			filter: brightness(0) invert(1);
 		}
-		border-color: #fff;
+		border-color: $white;
   	background-image: linear-gradient(to right, $primary-color, rgba($primary-color,.5));
 	}
 }

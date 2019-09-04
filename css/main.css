@@ -1631,3 +1631,27 @@ footer .footer-nav li a:hover {
 .footer-bottom .footer-text a:hover {
   color: #00ff8c;
 }
+
+
+
+.our-services-container{
+  background-color: #60605E;
+}
+
+.our-services-card{
+  background-color: #60605E;
+  border-bottom: none;
+}
+
+.our-services-card:hover {
+  background: #00AEA5;
+}
+
+.our-services-title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #FFFFFF}
+
+.our-services-text {
+  font-family: 'Montserrat';
+  color: #FFFFFF; }

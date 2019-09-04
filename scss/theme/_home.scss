@@ -373,20 +373,6 @@
 	}
 }
 
-footer {
-	background: $title-color;
-	.footer-nav {
-		margin-top: -7px;
-		li {
-			margin-top: 8px;
-			a {
-				&:hover {
-					color: $primary-color;
-				}
-			}
-		}
-	}
-}
 .subscription {
 	input {
 		width: 100%;
@@ -438,20 +424,6 @@ footer {
 		width: 25%;
 		img {
 			margin: 5px;
-		}
-	}
-}
-.single-footer-widget {
-	margin-bottom: 30px;
-}
-.footer-bottom {
-	padding-top: 40px;
-	border-top: 1px solid #eee;
-	.footer-text {
-		a {
-			&:hover {
-				color: $primary-color;
-			}
 		}
 	}
 }

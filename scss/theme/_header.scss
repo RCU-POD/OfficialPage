@@ -125,27 +125,12 @@
 	}
 }
 
-
-
 .header-social {
 	@include media-breakpoint-down(sm) {
 		display: none !important;
 	}
 	margin-left: 20px;
 	a {
-		margin: 0 5px;
-		padding: 0 5px;
-		display: inline-block;
-		color: rgba($white, .5);
-		&:hover {
-			color: $primary-color;
-		}
-	}
-}
-.footer-social {
-	margin-right: -5px;
-	a {
-		font-size: 18px;
 		margin: 0 5px;
 		padding: 0 5px;
 		display: inline-block;

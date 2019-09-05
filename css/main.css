@@ -34,10 +34,10 @@
   font-weight: 300; }
 
 body {
-  color: #FFFFFF;
+  color: #777777;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5em;
   position: relative; }
 
@@ -64,7 +64,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #FFFFFF; }
+  color: #777777; }
 
 .btn.active.focus,
 .btn.active:focus,
@@ -610,7 +610,7 @@ td, th {
   .section-title h3 {
     font-weight: 300;
     font-size: 24px;
-    color: #FFFFFF; }
+    color: #777777; }
     .section-title h3 b {
       font-weight: 300;
       color: #222222; }
@@ -705,6 +705,12 @@ td, th {
     .details-btn:hover span {
       color: #FFFFFF;
       font-weight: 600; }
+
+.slider-container {
+  padding-top: 100px;
+  padding-bottom: 10px; }
+  .slider-container .section-slider-title {
+    margin-bottom: 20px; }
 
 .default-header {
   position: absolute;
@@ -1200,6 +1206,7 @@ footer {
     footer .footer-container .footer-description p,
     footer .footer-container .footer-links p,
     footer .footer-container .footer-icon p {
+      color: #FFFFFF;
       margin-bottom: 0; }
     footer .footer-container .footer-social a,
     footer .footer-container .footer-description a,

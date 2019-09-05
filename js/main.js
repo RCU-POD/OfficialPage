@@ -198,6 +198,7 @@ $(document).ready(function(){
   $('a.bx-next').addClass('fa');
   $('a.bx-prev').addClass('fa');
 });
+<<<<<<< HEAD
 
 /*JS Code for Our Projects Section*/
 $(".image1").click(function(){
@@ -226,3 +227,5 @@ var setModalInfo = function(image,text)
   $(".image-modal-proyectos").attr("src", img);
   $(".text-modal").text(text);
 }
+=======
+>>>>>>> DEV

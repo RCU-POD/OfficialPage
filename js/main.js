@@ -23,6 +23,7 @@ $(document).ready(function(){
      // -------   Active Mobile Menu-----//
 
      $(".mobile-btn").on('click', function(e){
+       
         e.preventDefault();
         $(".main-menu").slideToggle();
         $("span", this).toggleClass("lnr-menu lnr-cross");

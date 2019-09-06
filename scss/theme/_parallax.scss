@@ -1,0 +1,37 @@
+
+.parallax{
+    color: #FFFFFF;
+}
+.site-block-testimonial {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover; 
+    opacity: .9;
+    margin-bottom: 1em;
+
+}
+
+.list-item-parallax {
+    height: 100px;
+    width: 150px;
+    margin-bottom: 0px;    
+  }
+
+.text-parallax{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.span-parallax{
+    color: #FFFFFF !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.img-parallax{
+    width: 30%;
+    margin-top:2em;
+    margin-bottom: -2.5em;
+}

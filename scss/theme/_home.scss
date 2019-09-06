@@ -22,9 +22,15 @@
 
 //------- Start Product Area --------//
 
-.title-bg {
-	background: $title-color;
+.welcome-title{
+  font-weight: 600;
 }
+.welcome-text{
+  
+  color: $black;
+}
+
+
 .product-area-title {
 	padding-bottom: 70px;
 	h2 {
@@ -36,9 +42,13 @@
 	}
 }
 .single-product {
+
+	
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+
+	
 	margin-top: 30px;
 	background: $white;
-	border-bottom: 2px solid $primary-color;
 	padding: 70px 20px;
 	@include transition();
 	.icon {
@@ -62,10 +72,14 @@
 		}
 	}
 	&:hover {
-		.icon span, .desc h4, .desc p {
+		.icon span, .desc h4, .desc p, .desc a {
 			color: $white;
 		}
-		background: $primary-color;
+		img {
+			filter: brightness(0) invert(1);
+		}
+		border-color: $white;
+  	background-image: linear-gradient(to right, $primary-color, rgba($primary-color,.5));
 	}
 }
 

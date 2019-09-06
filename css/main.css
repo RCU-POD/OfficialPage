@@ -861,8 +861,13 @@ td, th {
     .signle-service figcaption p {
       margin-bottom: 30px; }
 
-.title-bg {
-  background: #222222; }
+.welcome-title {
+  font-family: 'Montserrat';
+  font-weight: 600; }
+
+.welcome-text {
+  font-family: 'Montserrat';
+  color: black; }
 
 .product-area-title {
   padding-bottom: 70px; }
@@ -871,9 +876,11 @@ td, th {
       display: none; } }
 
 .single-product {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.42);
   margin-top: 30px;
   background: #FFFFFF;
-  border-bottom: 2px solid #00AEA5;
   padding: 70px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -904,9 +911,12 @@ td, th {
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
   .single-product:hover {
-    background: #00AEA5; }
-    .single-product:hover .icon span, .single-product:hover .desc h4, .single-product:hover .desc p {
+    border-color: #fff;
+    background-image: linear-gradient(to right, #00AEA5, rgba(0, 174, 165, 0.5)); }
+    .single-product:hover .icon span, .single-product:hover .desc h4, .single-product:hover .desc p, .single-product:hover .desc a {
       color: #FFFFFF; }
+    .single-product:hover img {
+      filter: brightness(0) invert(1); }
 
 .controls .filter {
   margin: 0 20px 10px 20px;

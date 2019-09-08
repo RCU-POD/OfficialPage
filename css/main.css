@@ -1270,7 +1270,6 @@ td, th {
   background: url(../img/c8.jpg) no-repeat center center/cover;
 }
 
-/*cambie*/
 .effect:hover {
   background: -moz-linear-gradient(left, rgba(0, 174, 165, 0.5) 0%, rgba(0, 174, 165, 0.5) 100%);
   background: -webkit-linear-gradient(left, rgba(0, 174, 165, 0.5) 0%, rgba(0, 174, 165, 0.5) 100%);
@@ -1286,13 +1285,12 @@ td, th {
   margin-top: 30px;
 }
 
-/* cambie */
 .single-member .thumb {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
   height: 150px;
-  /* round image */
+
   width: 210px; 
   height: 210px; 
   border-radius: 150px; 
@@ -1301,7 +1299,7 @@ td, th {
   margin: auto;
   
 }
-/*cambie*/
+
 .single-member .thumb .overlay-member {
   background: -moz-linear-gradient(left, rgba(0, 174, 165, 0.80) 0%, rgba(0, 174, 165, 0.80) 100%);
   background: -webkit-linear-gradient(left, rgba(0, 174, 165, 0.80) 0%, rgba(0, 174, 165, 0.80) 100%);
@@ -1313,7 +1311,7 @@ td, th {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-   /* round image */
+
   width: 210px; 
   height: 210px; 
   border-radius: 150px; 
@@ -1325,21 +1323,21 @@ td, th {
   margin: 0;
   font-size: 12px;
 }
-/*cambie*/
+
 .single-member .thumb .overlay-member .line {
   margin: 20px 0 20px 0;
   width: 100%;
   height: 1px;
   background: #00AEA5;
 }
-/*cambie*/
+
 .single-member .thumb .overlay-member .social a {
   color: rgb(255, 255, 255);
   margin: 0 4px;
   padding: 2px;
   font-size: 310% !important;
 }
-/*cambie*/
+
 .single-member .thumb .overlay-member .social a:hover {
   color: #ffffff;
   -webkit-transform: scale(1.5);
@@ -1364,15 +1362,14 @@ td, th {
 }
 
 .single-member .desc h5 a {
-  color: #222222;
+  color: #2E2D2C;
   font-family: 'montserratsemibold'!important;
 }
 
-
-/*cambie*/
 .single-member .desc p {
   margin: 0;
   font-family: 'montserratregular'!important;
+  color: #2E2D2C;
 }
 
 .studio-area {

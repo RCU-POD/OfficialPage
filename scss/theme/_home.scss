@@ -150,19 +150,39 @@
 	}
 }
 
+	.effect:hover {
+		background: -moz-linear-gradient(left, rgba(0, 174, 165, 0.5) 0%, rgba(0, 174, 165, 0.5) 100%);
+		background: -webkit-linear-gradient(left, rgba(0, 174, 165, 0.5) 0%, rgba(0, 174, 165, 0.5) 100%);
+		background: linear-gradient(to right, rgba(0, 174, 165, 0.5) 0%, rgba(0, 174, 165, 0.5) 100%);
+		color: #00AEA5 !important;
+	}
+
 .single-member {
 	margin-top: 30px;
 	.thumb {
 		background-repeat: no-repeat !important;
 		background-position: center center !important;
 		background-size: cover !important;
-		height: 300px;
+		height: 150px;
+
+		width: 210px; 
+		height: 210px; 
+		border-radius: 150px; 
+		-webkit-border-radius: 150px; 
+		-moz-border-radius: 150px; 
+		margin: auto;
 		.overlay-member {
-			background: -moz-linear-gradient(left, rgba(60,64,143,.95) 0%, rgba(91,97,207,.95) 100%);
-			background: -webkit-linear-gradient(left, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
-			background: linear-gradient(to right, rgba(60,64,143,.95) 0%,rgba(91,97,207,.95) 100%);
+			background: -moz-linear-gradient(left, rgba(0, 174, 165, 0.80) 0%, rgba(0, 174, 165, 0.80) 100%);
+			background: -webkit-linear-gradient(left, rgba(0, 174, 165, 0.80) 0%, rgba(0, 174, 165, 0.80) 100%);
+			background: linear-gradient(to right, rgba(0, 174, 165, 0.80) 0%, rgba(0, 174, 165, 0.80) 100%);
 			text-align: center;
 			padding: 30px;
+
+			width: 210px; 
+			height: 210px; 
+			border-radius: 150px; 
+			-webkit-border-radius: 150px; 
+			-moz-border-radius: 150px; 
 			p {
 				margin: 0;
 				font-size: 12px;
@@ -172,6 +192,7 @@
 				width: 100%;
 				height: 1px;
 				background: $primary-color;
+				background: #00AEA5;
 			}
 			opacity: 0;
 			@include transition();
@@ -180,8 +201,12 @@
 					color: rgba($white, .5);
 					margin: 0 4px;
 					padding: 2px;
+					font-size: 310% !important;
 					&:hover {
 						color: $primary-color;
+						color: white;
+						-webkit-transform: scale(1.5);
+  						transform: scale(1.5);
 					}
 				}
 			}
@@ -197,6 +222,8 @@
 		h5 {
 			a {
 				color: $title-color;
+				color: #2E2D2C;
+				font-family: 'montserratsemibold';
 				&:hover {
 					color: $primary-color;
 				}
@@ -204,9 +231,21 @@
 		}
 		p {
 			margin: 0;
+			color: #2E2D2C;
+			font-family: 'montserratregular';
 		}
 	}
+
 }
+
+@font-face{
+		font-family: "montserratsemibold";
+		src: url("../fonts/Montserrat-SemiBold.ttf");
+	}
+	@font-face{
+		font-family: "montserratregular";
+		src: url("../fonts/Montserrat-Regular.ttf");
+	}
 
 //------------ Start Studio Area --------------//
 .studio-area {

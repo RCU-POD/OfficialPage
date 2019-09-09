@@ -1010,7 +1010,7 @@ td, th {
         background: #00AEA5;
         background: #00AEA5; }
       .single-member .thumb .overlay-member .social a {
-        color: rgba(255, 255, 255, 0.5);
+        color: white;
         margin: 0 4px;
         padding: 2px;
         font-size: 310% !important; }

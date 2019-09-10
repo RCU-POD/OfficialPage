@@ -1,0 +1,176 @@
+@import "theme/variables";
+
+.modal {
+  &.show {
+    .modal-dialog {
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 45%;
+      position: absolute;
+      min-width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .modal {
+    &.show {
+      .modal-dialog {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        position: absolute;
+        min-width: 90%;
+      }
+    }
+  }
+
+  .nuestros-proyectos
+  {
+    position: absolute;
+    right: 8px;
+  }
+
+  button.close.nuestros-proyectos
+  {
+    padding-top: 10px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 575px)
+{
+  .modal {
+    &.show {
+      .modal-dialog {
+        transform: translate(-50%, -50%);
+        left: 48%;
+        top: 50%;
+        position: absolute;
+        min-width: 90%;
+      }
+    }
+  }
+}
+
+.modal-body
+{
+  color: $black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.nuestros-proyectos
+{
+  position: absolute;
+  right: 25px;
+}
+
+button.close
+{
+  padding-top: 12px;
+  font-size: 50px;
+}
+
+img.image-modal-proyectos
+{
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 10px;
+}
+
+.ourprojects
+{
+  background: $ourproject-color;
+}
+
+.moreProjects
+{
+  font-size: 60px;
+  color: $black;
+  padding-top: 30px;
+}
+
+.single-product2
+{
+    background: url(../img/bubbles.jpg);
+    background-size: cover;
+}
+
+/*Mixin code for avoid repetitive CSS code
+  The Each Loop iterate each value of the variable $listImages that contain the URL values of the images
+  The $i variable increments its value to know with imagep1-6 is going to applicate the CSS value*/
+
+$listImages: "../img/c1.jpg" "../img/c2.jpg" "../img/c3.jpg" "../img/c4.jpg" "../img/c5.jpg" "../img/c7.jpg";
+
+@mixin backgroundImage()
+{ 
+  $i: 1;
+  
+  @each $image in $listImages
+  {
+    .imagenp#{$i}:hover
+    {
+      background-image: url(#{$image});   
+    }
+    
+    $i: $i + 1;
+  }
+}
+
+@include backgroundImage();
+
+/*End of Mixin Code*/
+
+.single-product2:hover
+{
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+}
+
+.single-product1 {
+  margin-top: 30px;
+  opacity: 0;
+  background: gray;
+  padding: 70px 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.single-product1 .icon {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.single-product1 .icon span {
+  font-size: 28px;
+  color: $white;
+  transition: all 0.3s ease 0s;
+}
+
+.single-product1 .desc {
+  text-align: center;
+}
+
+.single-product1 .desc h4 {
+  color: $white;
+  margin-bottom: 10px;
+  transition: all 0.3s ease 0s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.single-product1 .desc p {
+  color: $white;
+  margin-bottom: 10px;
+  transition: all 0.3s ease 0s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.single-product1:hover {
+  opacity: .85;
+  transition: opacity .5s;
+  color: $white;
+}

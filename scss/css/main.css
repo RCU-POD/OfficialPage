@@ -34,7 +34,7 @@
   font-weight: 300; }
 
 body {
-  color: #FFFFFF;
+  color: #777777;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -64,7 +64,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #FFFFFF; }
+  color: #777777; }
 
 .btn.active.focus,
 .btn.active:focus,
@@ -614,7 +614,7 @@ td, th {
   .section-title h3 {
     font-weight: 300;
     font-size: 24px;
-    color: #FFFFFF; }
+    color: #777777; }
     .section-title h3 b {
       font-weight: 300;
       color: #222222; }

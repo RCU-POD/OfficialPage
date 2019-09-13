@@ -34,7 +34,7 @@
   font-weight: 300; }
 
 body {
-  color: #FFFFFF;
+  color: #777777;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -64,7 +64,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #FFFFFF; }
+  color: #777777; }
 
 .btn.active.focus,
 .btn.active:focus,
@@ -615,7 +615,7 @@ td, th {
   .section-title h3 {
     font-weight: 300;
     font-size: 24px;
-    color: #FFFFFF; }
+    color: #777777; }
     .section-title h3 b {
       font-weight: 300;
       color: #222222; }
@@ -857,6 +857,8 @@ td, th {
   .banner-area .overlay-bg {
     background: -moz-linear-gradient(left, rgba(15, 2, 138, 0) 0%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(left, rgba(15, 2, 138, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(15, 2, 138, 0)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(left, rgba(15, 2, 138, 0) 0%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(to right, rgba(15, 2, 138, 0) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .text-center-main {
@@ -1011,6 +1013,8 @@ td, th {
     .single-member .thumb .overlay-member {
       background: -moz-linear-gradient(left, rgba(0, 174, 165, 0.8) 0%, rgba(0, 174, 165, 0.8) 100%);
       background: -webkit-linear-gradient(left, rgba(0, 174, 165, 0.8) 0%, rgba(0, 174, 165, 0.8) 100%);
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 174, 165, 0.8)), to(rgba(0, 174, 165, 0.8)));
+      background: -o-linear-gradient(left, rgba(0, 174, 165, 0.8) 0%, rgba(0, 174, 165, 0.8) 100%);
       background: linear-gradient(to right, rgba(0, 174, 165, 0.8) 0%, rgba(0, 174, 165, 0.8) 100%);
       text-align: center;
       padding: 30px;

@@ -602,6 +602,10 @@ td, th {
     margin-top: 60px;
     margin-right: 20px;
     background: #FFFFFF; }
+  .primary-btn.contact-btn {
+    color: #FFFFFF;
+    margin-top: 60px;
+    background: #00AEA5; }
   .primary-btn span {
     margin-left: 15px; }
   .primary-btn:hover {

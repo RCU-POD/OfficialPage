@@ -190,7 +190,7 @@ $(document).ready(function(){
   
   $('.progressBar--animateAll').bekeyProgressbar();
   
-})
+});
 
 // configuration for the slider
 $(document).ready(function(){

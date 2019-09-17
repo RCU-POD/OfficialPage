@@ -34,7 +34,7 @@
   font-weight: 300; }
 
 body {
-  color: #FFFFFF;
+  color: #777777;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -64,7 +64,7 @@ iframe {
 a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
-  color: #FFFFFF; }
+  color: #777777; }
 
 .btn.active.focus,
 .btn.active:focus,
@@ -614,7 +614,7 @@ td, th {
   .section-title h3 {
     font-weight: 300;
     font-size: 24px;
-    color: #FFFFFF; }
+    color: #777777; }
     .section-title h3 b {
       font-weight: 300;
       color: #222222; }
@@ -918,9 +918,6 @@ td, th {
       color: #FFFFFF; }
     .single-product:hover img {
       filter: brightness(0) invert(1); }
-
-.single-product:hover img {
-  filter: brightness(0) invert(1); }
 
 .controls .filter {
   margin: 0 20px 10px 20px;
@@ -1240,33 +1237,37 @@ td, th {
     .instafeed li img {
       margin: 5px; }
 
-.footer-bottom {
-  padding-top: 40px;
-  border-top: 1px solid #eee;
-}
-
-.footer-bottom .footer-text a:hover {
-  color: #00ff8c;
-}
-
-
-
-.our-services-container{
-  background-color: #60605E;
-}
-
-.our-services-card{
-  background-color: #60605E;
-  border-bottom: none;
-}
-
-.our-services-card:hover {
-  background: #00AEA5;
-}
-
-.our-services-title {
-  font-weight: 600;
-  color: #FFFFFF}
-
-.our-services-text {
-  color: #FFFFFF; }
+footer {
+  background: #60605E;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  footer .footer-container .footer-social,
+  footer .footer-container .footer-description,
+  footer .footer-container .footer-links,
+  footer .footer-container .footer-icon {
+    display: flex;
+    justify-content: center; }
+    footer .footer-container .footer-social p,
+    footer .footer-container .footer-description p,
+    footer .footer-container .footer-links p,
+    footer .footer-container .footer-icon p {
+      margin-bottom: 0; }
+    footer .footer-container .footer-social a,
+    footer .footer-container .footer-description a,
+    footer .footer-container .footer-links a,
+    footer .footer-container .footer-icon a {
+      color: #FFFFFF; }
+      footer .footer-container .footer-social a:hover,
+      footer .footer-container .footer-description a:hover,
+      footer .footer-container .footer-links a:hover,
+      footer .footer-container .footer-icon a:hover {
+        color: #00AEA5; }
+  footer .footer-container .footer-social {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    footer .footer-container .footer-social a {
+      margin-left: 15px;
+      margin-right: 15px; }
+  footer .footer-container .footer-links a {
+    margin-left: 5px;
+    margin-right: 5px; }

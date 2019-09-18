@@ -1250,9 +1250,6 @@ footer {
     margin-left: 5px;
     margin-right: 5px; }
 
-.parallax {
-  color: #FFFFFF; }
-
 .site-block-testimonial {
   position: relative;
   background-attachment: fixed;
@@ -1266,14 +1263,14 @@ footer {
   margin-bottom: 0px; }
 
 .text-parallax {
-  font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #FFFFFF; }
 
 .span-parallax {
-  color: #FFFFFF !important;
-  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600; }
 
 .img-parallax {
@@ -1283,20 +1280,38 @@ footer {
 
 .slideshow-container {
   position: relative;
-  color: #FFFFFF; }
+  color: #00AEA5;
+  height: 20vh; }
 
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 80px 0px 50px 0px;
-  font-family: 'Montserrat', sans-serif;
+.slider-block-testimonial {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: .9;
+  margin-bottom: 1em;
+  padding-top: 5%; }
+
+.pr-slider q {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  text-align: center;
-  font-size: 1.3em;
-  width: 50%; }
+  font-size: 1.2em;
+  width: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.pr-slider p {
+  color: #00AEA5;
+  font-size: 1.1em;
+  font-weight: 400; }
+
+.pr-slider .bx-wrapper {
+  border: none 0px;
+  background: none; }
 
 /* Next & previous buttons */
-.prev, .next {
+.bx-prev, .bx-next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -1304,8 +1319,8 @@ footer {
   margin-top: -30px;
   padding: 16px;
   font-weight: bold;
-  font-size: 20px;
-  border-radius: 0;
+  font-size: 10px;
+  border-radius: 0px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1315,45 +1330,22 @@ footer {
   margin-right: 15vw; }
 
 /* Position the "next button" to the right */
-.next {
+.bx-next {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px; }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.bx-prev:hover, .bx-next:hover {
   background-color: #00AEA5;
   opacity: 0.9; }
 
-/* The dot/bullet/indicator container */
-.dot-container {
-  text-align: center;
-  padding: 20px;
-  background: none; }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #E0F6F7;
-  border-radius: 50%;
-  display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  -o-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease; }
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #00AEA5; }
-
 @media (max-width: 800px) {
-  .prev, .next {
+  .bx-prev, .bx-next {
     padding: 12px;
     font-size: 15px; } }
 
 @media (max-width: 500px) {
-  .prev, .next {
+  .bx-prev, .bx-next {
     padding: 10px;
     font-size: 12px; } }

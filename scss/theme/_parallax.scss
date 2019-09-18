@@ -1,14 +1,9 @@
-
-.parallax{
-    color: #FFFFFF;
-}
 .site-block-testimonial {
     position: relative;
     background-attachment: fixed;
     background-size: cover; 
     opacity: .9;
     margin-bottom: 1em;
-
 }
 
 .list-item-parallax {
@@ -18,15 +13,15 @@
   }
 
 .text-parallax{
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-family: $primary-font ;
     font-weight: 400;
-    color: #FFFFFF;
+    color: $white;
 }
 
 .span-parallax{
-    color: #FFFFFF !important;
-    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    font-family: $primary-font ;
     font-weight: 600;
 }
 

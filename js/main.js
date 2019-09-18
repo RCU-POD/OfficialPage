@@ -164,7 +164,7 @@ $(document).ready(function(){
             });
 
         }else{
-          $progressCount.text( percentageText + '%');
+          $progressCount.text( percentageText + '');
         }
       
     };

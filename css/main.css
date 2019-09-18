@@ -1302,7 +1302,6 @@ footer {
     margin-left: 5px;
     margin-right: 5px; }
 
-/*--------------------------- Color variations ----------------------*/
 .modal.show .modal-dialog {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

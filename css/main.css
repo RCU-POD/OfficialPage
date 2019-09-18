@@ -1429,16 +1429,14 @@ img.image-modal-proyectos {
   margin-bottom: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  font-family: 'Montserrat', sans-serif; }
+  transition: all 0.3s ease 0s; }
 
 .single-product1 .desc p {
   color: #FFFFFF;
   margin-bottom: 10px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  font-family: 'Montserrat', sans-serif; }
+  transition: all 0.3s ease 0s; }
 
 .single-product1:hover {
   opacity: .85;

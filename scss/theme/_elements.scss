@@ -1,12 +1,10 @@
 .primary-btn {
 	line-height: 40px;
 	padding: 0 40px;
-	border-radius: 20px;
-	background: transparent;
 	border: 1px solid $primary-color;
 	color: $title-color;
 	display: inline-block;
-	font-weight: 600;
+	font-weight: 800;
 	@include transition();
 	cursor: pointer;
 	&:focus {
@@ -15,6 +13,13 @@
 	&.banner-btn {
 		color: $white;
 		margin-top: 60px;
+		background: $primary-color;
+	}
+	&.banner-btn-b {
+		color: $black;
+		margin-top: 60px;
+		margin-right: 20px;
+		background: $white;
 	}
 	span {
 		margin-left: 15px;
@@ -135,16 +140,5 @@
 		}
 		background: $primary-color;
 		box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
-	}
-}
-
-//----------- End Progress Bar ----------//
-
-.slider-container {
-	padding-top: 100px;
-	padding-bottom: 10px;
-
-	.section-slider-title {
-		margin-bottom: 20px;
 	}
 }

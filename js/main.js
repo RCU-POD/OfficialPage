@@ -159,12 +159,12 @@ $(document).ready(function(){
             { Counter: percentageText },
             { duration: 3000,
              step: function () {
-               $progressCount.text( Math.ceil(this.Counter) + '%');
+               $progressCount.text( Math.ceil(this.Counter) + '');
              }
             });
 
         }else{
-          $progressCount.text( percentageText + '%');
+          $progressCount.text( percentageText + '');
         }
       
     };

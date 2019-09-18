@@ -582,12 +582,10 @@ td, th {
 .primary-btn {
   line-height: 40px;
   padding: 0 40px;
-  border-radius: 20px;
-  background: transparent;
   border: 1px solid #00AEA5;
   color: #222222;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 800;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -597,7 +595,13 @@ td, th {
     outline: none; }
   .primary-btn.banner-btn {
     color: #FFFFFF;
-    margin-top: 60px; }
+    margin-top: 60px;
+    background: #00AEA5; }
+  .primary-btn.banner-btn-b {
+    color: #000000;
+    margin-top: 60px;
+    margin-right: 20px;
+    background: #FFFFFF; }
   .primary-btn span {
     margin-left: 15px; }
   .primary-btn:hover {
@@ -1334,7 +1338,7 @@ footer {
   background: none; }
 
 /* Next & previous buttons */
-.example2 .bx-prev, .example2 .bx-next {
+.bx-prev, .bx-next {
   cursor: pointer;
   position: absolute;
   top: 50%;

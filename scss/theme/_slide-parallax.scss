@@ -1,0 +1,78 @@
+.slideshow-container {
+    position: relative;
+    color: $primary-color;
+    height: 20vh;
+}
+.slider-block-testimonial{
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover; 
+  opacity: .9;
+  margin-bottom: 1em;
+  padding-top: 5%;
+}
+
+.pr-slider q{
+  color: $white;
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 1.2em;
+  width: 50%;
+  display: inline-flex;
+}
+
+.pr-slider p{
+  color: $primary-color;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.pr-slider .bx-wrapper{
+  border: none 0px; 
+  background: none;
+}
+  
+  /* Next & previous buttons */
+   .bx-prev, .bx-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 0px;
+    user-select: none;
+    background-color: $primary-color ;
+    margin-left:  -35vw;
+    margin-right: 15vw;
+    }
+  
+  /* Position the "next button" to the right */
+  .bx-next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .bx-prev:hover, .bx-next:hover {
+    background-color: $primary-color  ;
+    opacity: 0.9;
+  }
+  
+ 
+  @media (max-width: 800px){
+    .bx-prev, .bx-next {
+      padding: 12px;
+      font-size: 15px;
+    }
+ 
+  }
+  @media (max-width: 500px){
+    .bx-prev, .bx-next {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }

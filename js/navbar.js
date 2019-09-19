@@ -5,11 +5,11 @@ $(document).ready(function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       navbar.style.top = "0px";
       navbar.style.backgroundColor = '#FFFFFF';
-      $(".nav-link").css("color", "#000000");
+      $(".nav-s").css("color", "#000000");
     } else {
       navbar.style.position = 'fixed';
       navbar.style.backgroundColor = '#000000';
-      $(".nav-link").css("color", "#FFFFFF");
+      $(".nav-s").css("color", "#FFFFFF");
     }
   }  
     

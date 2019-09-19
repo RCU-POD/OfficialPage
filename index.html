@@ -31,42 +31,53 @@
 	<body>
 		<div id="top"></div>
 		<!-- Start Header Area -->
-		<header class="default-header">
-			<div class="sticky-header">
-				<div class="container">
-					<div class="header-content d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="#top" class="smooth"><img src="img/logo.png" alt=""></a>
+		<section class="menu">
+			<nav id="navbar" class="navbar bg-nav">
+			<div class="container d-inline-flex">
+				 <a href="#" class="navbar-brand d-flex">
+				 <img class="iconNav" src="img/RCU/4-RCU-identidad-Menu-principal.png" alt="Icon">
+				 </a>
+			
+				 <div class="standard-menu">
+					<ul class="menu-table">
+					   <li><a class="nav-link nav-s" href='#'>Home</a></li>
+					   <li><a class="nav-link nav-s" href='#about'>About</a></li>
+					   <li><a class="nav-link nav-s" href='#portfolio'>Portfolio</a></li>
+				 	   <li><a class="nav-link nav-s" href='#'>Services</a></li>
+					   <li><a class="nav-link nav-s" href='#'>Prices</a></li>
+					   <li><a class="nav-link nav-s" href='#team'>Team</a></li>
+					   <div class="btn-group">
+						<button type="button" class="nav-link nav-s btnlink dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Blog <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+						<li class="submenu-li"><a class="submenu" href="#">Blog post 1</a></li>
+						<li class="submenu-li"><a class="submenu" href="#">Blog post 2</a></li>
+						</ul>
 						</div>
-						<div class="right-bar d-flex align-items-center">
-							<nav class="d-flex align-items-center">
-								<ul class="main-menu">
-									<li><a href="#top">Home</a></li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#protfolio">Portfolio</a></li>
-									<li><a href="#team">Team</a></li>
-									<li><a href="#blog">Blog</a></li>
-									<li><a href="#contact">Contact</a></li>
-								</ul>
-								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
-							</nav>
-							<div class="search relative">
-								<span class="lnr lnr-magnifier"></span>
-								<form action="#" class="search-field">
-									<input type="text" placeholder="Search here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search here'">
-									<button class="search-submit"><span class="lnr lnr-magnifier"></span></button>
-								</form>
-							</div>
-							<div class="header-social d-flex align-items-center">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
+					  <li><a class="nav-link nav-s" href='#'>Contact</a></li>
+
+					</ul>
+					 
+				 </div>
+				 <div class="fixed-top main-menu">
+					   <div class="flex-center p-5">
+						  <ul class="nav flex-column">
+							<img src="img/RCU/RCUlogoBlanco-256px.png" alt="">							 <li class="nav-item delay-1"><a class="nav-link control" href="#">Home</a></li>
+							 <li class="nav-item delay-1"><a class="nav-link control" href="#about">About</a></li>
+							 <li class="nav-item delay-2"><a class="nav-link control" href="#portfolio">Portfolio</a></li>
+							 <li class="nav-item delay-3"><a class="nav-link control" href="#">Services</a></li>
+							 <li class="nav-item delay-4"><a class="nav-link control" href="#">Prices</a></li>
+							 <li class="nav-item delay-5"><a class="nav-link control" href="#team">Team</a></li>
+							 <li class="nav-item delay-6"><a class="nav-link control" href="#">Blog</a></li>
+							 <li class="nav-item delay-7"><a class="nav-link control" href="#">Contact</a></li>
+						  </ul>
+					   </div>
 					</div>
-				</div>
+			  <a class="nav-button ml-auto mr-4 justify-content-lg-start"><span id="nav-icon3" class="ham"><span></span><span></span><span></span><span></span></span></a>
 			</div>
-		</header>
+			</nav>
+			</section>
 		<!-- End Header Area -->
 		<!-- Start Banner Area -->
 		<section class="banner-area relative">
@@ -89,7 +100,7 @@
 		</section>
 		<!-- End Banner Area -->
 		<!-- Start Product Area -->
-		<section id="services" class="title-bg section-full">
+		<section id="about" class="title-bg section-full">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -186,7 +197,7 @@
 		</section>
 		<!-- End About Area -->
 		<!-- Start Product Area -->
-		<section id="services" class="title-bg section-full ourprojects">
+		<section id="portfolio" class="title-bg section-full ourprojects">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -1153,5 +1164,7 @@
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/mixitup.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="js/navbar.js"></script>
 	</body>
 </html>

@@ -1,0 +1,23 @@
+.our-services-container{
+    background: $footer-bg;
+} 
+
+.our-services-card{
+    background-color: $footer-bg;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.our-services-card:hover{
+    background:$primary-color;
+}
+
+.our-services-title{
+    font-weight: 600;
+    color: $white;
+
+}
+
+.our-services-text{
+    color: $white;
+}

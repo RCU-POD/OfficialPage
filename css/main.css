@@ -1543,3 +1543,21 @@ img.image-modal-proyectos {
   opacity: .85;
   transition: opacity .5s;
   color: #FFFFFF; }
+
+.our-services-container {
+  background: #60605E; }
+
+.our-services-card {
+  background-color: #60605E;
+  border-bottom: none;
+  box-shadow: none; }
+
+.our-services-card:hover {
+  background: #00AEA5; }
+
+.our-services-title {
+  font-weight: 600;
+  color: #FFFFFF; }
+
+.our-services-text {
+  color: #FFFFFF; }

@@ -1,22 +1,23 @@
 .our-services-container{
-    background: #60605E
-}
+    background: $footer-bg;
+} 
 
 .our-services-card{
-    background-color: #60605E;
+    background-color: $footer-bg;
     border-bottom: none;
     box-shadow: none;
 }
 
 .our-services-card:hover{
-    background: #00AEA5;
+    background:$primary-color;
 }
 
 .our-services-title{
     font-weight: 600;
-    color: #FFFFFF
+    color: $white;
+
 }
 
 .our-services-text{
-    color: #FFFFFF
+    color: $white;
 }

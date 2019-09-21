@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.our-services-container  {
+  background: #60605E; }
+
+.our
+.our-services-card  {
+  background-color:  red;
+  border-bottom:  none;
+  -webkit-box-shadow:  none;
+  box-shadow:  none; }
+
+.our-services-card:hover  {
+  background:   #00AEA5; }
+
+.our-services-title  {
+  font-weight:  600;
+  color:   #FFFFFF; }
+
+.our-services-text  {
+  color:   #FFFFFF; }

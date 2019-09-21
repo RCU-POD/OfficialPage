@@ -159,12 +159,12 @@ $(document).ready(function(){
             { Counter: percentageText },
             { duration: 3000,
              step: function () {
-               $progressCount.text( Math.ceil(this.Counter) + '%');
+               $progressCount.text( Math.ceil(this.Counter) + '');
              }
             });
 
         }else{
-          $progressCount.text( percentageText + '%');
+          $progressCount.text( percentageText + '');
         }
       
     };
@@ -194,7 +194,13 @@ $(document).ready(function(){
 
 // configuration for the slider
 $(document).ready(function(){
-  $('.slider').bxSlider();
+  $('.slider1').bxSlider();
+  $('a.bx-next').addClass('fa');
+  $('a.bx-prev').addClass('fa');
+});
+
+$(document).ready(function(){
+  $('.slider2').bxSlider();
   $('a.bx-next').addClass('fa');
   $('a.bx-prev').addClass('fa');
 });

@@ -6,6 +6,29 @@
 		background: linear-gradient(to right, rgba(15, 2, 138, 0) 0%,rgba(0, 0, 0, 0) 100%);
 	}
 }
+.start-banner-container {
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	z-index: 1;
+}
+.particles-js-canvas-el {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	z-index: 2;
+	
+}
+.buttons-start{
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+} 
 .text-center-main{
 	color: $white;
     font-size: 20px;

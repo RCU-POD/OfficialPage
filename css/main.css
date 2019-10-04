@@ -933,6 +933,7 @@ td, th {
     padding: 0px; } }
 
 .banner-area {
+  height: 100vh;
   background: url(../img/banner.jpg) no-repeat center center/cover; }
   .banner-area .overlay-bg {
     background: -moz-linear-gradient(left, rgba(15, 2, 138, 0) 0%, rgba(0, 0, 0, 0) 100%);

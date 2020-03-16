@@ -1,0 +1,50 @@
+@mixin margins($leftRight, $pixels) {
+    @if $leftRight {
+        margin-left: $pixels;
+        margin-right: $pixels;
+    } @else {
+        margin-top: $pixels;
+        margin-bottom: $pixels;
+    }
+}
+
+footer {
+    background: $footer-bg;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .footer-container {
+        .footer-social,
+        .footer-description,
+        .footer-links,
+        .footer-icon {
+            display: flex;
+            justify-content: center;
+
+            p {
+                color: $white;
+                margin-bottom: 0;
+            }
+
+            a {
+                color: $white;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        .footer-social {
+            @include margins(false, 10px);
+            a {
+                @include margins(true, 15px);
+            }
+        }
+
+        .footer-links {
+            a {
+                @include margins(true, 5px);
+            }
+        }
+    }
+}
